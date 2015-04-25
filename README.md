@@ -1,3 +1,9 @@
+# Git Foundation
+
+ตัวเนื้อหาอยู่ใน `./book` โดยไฟล์หลักจะอยู่ที่ `summary.md`
+
+อ้างอิง: http://help.gitbook.com/format/introduction.html
+
 ## Require
 ```
 npm install gitbook -g
