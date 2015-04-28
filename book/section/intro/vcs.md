@@ -2,4 +2,4 @@
 
 คือ ระบบที่ใช้ในการจัดการเปลี่ยนแปลงที่ของไฟล์ ซึ่งเราสามารถเรียกดูเวอร์ชั่น ก่อนๆได้ อีกทั้งยังสามารถบอกได้ด้วยว่าใครเป็นคนแก้ไขโค๊ด ทำเมื่อไหร่ หรือช่วยสืบค้นว่า Bug ที่พบ เกิดมาจากการเปลี่ยนแปลงของโค๊ดชุดไหน
 
-![image](http://s3.amazonaws.com/libapps/customers/137/images/versioncontrol.png)
+![image](https://dl.dropboxusercontent.com/u/8219468/git/138_Version_Control-1306631688.png)
