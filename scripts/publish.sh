@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 ( cd book && gitbook build ) \
 && git add book/_book \
