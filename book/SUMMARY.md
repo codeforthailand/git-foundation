@@ -6,7 +6,8 @@
 	* [แนะนำ Git](section/intro/whatisgit.md)
 * [ติดตั้ง Git]
     * [Mac OSX](section/setup/osx.md)
-* [คำสั่งพื้นฐาน]
+* [การใช้งานเบื้องต้น](section/basics.md)
+    * [เริ่มต้นใช้งาน](section/basics/getting-started.md)
 * [การนำไปใช้จริง]
 	* [Git Client]
 	* [Github]
