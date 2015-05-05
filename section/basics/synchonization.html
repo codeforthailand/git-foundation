@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>อะไรคือ Version Control | </title>
+        <title>การอัพเดทข้อมูลกับเซิฟเวอร์ | </title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.0.1">
@@ -20,10 +20,8 @@
         
     
     
-    <link rel="next" href="../../section/intro/whatisgit.html" />
     
-    
-    <link rel="prev" href="../../section/intro.html" />
+    <link rel="prev" href="../../section/basics/undoing.html" />
     
 
         
@@ -36,7 +34,7 @@
     
 
         
-    <div class="book" data-level="1.1" data-basepath="../.." data-revision="Tue May 05 2015 16:49:13 GMT+0700 (ICT)">
+    <div class="book" data-level="3.4" data-basepath="../.." data-revision="Tue May 05 2015 16:49:13 GMT+0700 (ICT)">
     
 
 <div class="book-summary">
@@ -82,7 +80,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.1" data-path="section/intro/vcs.html">
+        <li class="chapter " data-level="1.1" data-path="section/intro/vcs.html">
             
                 
                     <a href="../../section/intro/vcs.html">
@@ -206,7 +204,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.4" data-path="section/basics/synchonization.html">
+        <li class="chapter active" data-level="3.4" data-path="section/basics/synchonization.html">
             
                 
                     <a href="../../section/basics/synchonization.html">
@@ -356,10 +354,67 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="version-control-system-vcs">Version Control System (VCS)</h1>
-<p>&#xE04;&#xE37;&#xE2D; &#xE23;&#xE30;&#xE1A;&#xE1A;&#xE17;&#xE35;&#xE48;&#xE43;&#xE0A;&#xE49;&#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE08;&#xE31;&#xE14;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19;&#xE41;&#xE1B;&#xE25;&#xE07;&#xE17;&#xE35;&#xE48;&#xE02;&#xE2D;&#xE07;&#xE44;&#xE1F;&#xE25;&#xE4C; &#xE0B;&#xE36;&#xE48;&#xE07;&#xE40;&#xE23;&#xE32;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE40;&#xE23;&#xE35;&#xE22;&#xE01;&#xE14;&#xE39;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;&#xE0A;&#xE31;&#xE48;&#xE19; &#xE01;&#xE48;&#xE2D;&#xE19;&#xE46;&#xE44;&#xE14;&#xE49; &#xE2D;&#xE35;&#xE01;&#xE17;&#xE31;&#xE49;&#xE07;&#xE22;&#xE31;&#xE07;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE1A;&#xE2D;&#xE01;&#xE44;&#xE14;&#xE49;&#xE14;&#xE49;&#xE27;&#xE22;&#xE27;&#xE48;&#xE32;&#xE43;&#xE04;&#xE23;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE04;&#xE19;&#xE41;&#xE01;&#xE49;&#xE44;&#xE02;&#xE42;&#xE04;&#xE4A;&#xE14; &#xE17;&#xE33;&#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE44;&#xE2B;&#xE23;&#xE48; &#xE2B;&#xE23;&#xE37;&#xE2D;&#xE0A;&#xE48;&#xE27;&#xE22;&#xE2A;&#xE37;&#xE1A;&#xE04;&#xE49;&#xE19;&#xE27;&#xE48;&#xE32; Bug &#xE17;&#xE35;&#xE48;&#xE1E;&#xE1A; &#xE40;&#xE01;&#xE34;&#xE14;&#xE21;&#xE32;&#xE08;&#xE32;&#xE01;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19;&#xE41;&#xE1B;&#xE25;&#xE07;&#xE02;&#xE2D;&#xE07;&#xE42;&#xE04;&#xE4A;&#xE14;&#xE0A;&#xE38;&#xE14;&#xE44;&#xE2B;&#xE19;</p>
-<p><img src="https://dl.dropboxusercontent.com/u/8219468/git/138_Version_Control-1306631688.png" alt="image"></p>
+                        <h1 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B1%E0%B8%9E%E0%B9%80%E0%B8%94%E0%B8%97%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C">&#xE01;&#xE32;&#xE23;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE01;&#xE31;&#xE1A;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;</h1>
+<p>&#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE23;&#xE32;&#xE43;&#xE0A;&#xE49; Git &#xE2A;&#xE34;&#xE48;&#xE07;&#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE04;&#xE27;&#xE23;&#xE17;&#xE33;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE22;&#xE34;&#xE48;&#xE07;&#xE04;&#xE37;&#xE2D;&#xE01;&#xE32;&#xE23;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE01;&#xE31;&#xE1A;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE2A;&#xE21;&#xE48;&#xE33;&#xE40;&#xE2A;&#xE21;&#xE2D; &#xE0B;&#xE36;&#xE48;&#xE07;&#xE08;&#xE30;&#xE0A;&#xE48;&#xE27;&#xE22;&#xE25;&#xE14;&#xE01;&#xE32;&#xE23;&#xE40;&#xE01;&#xE34;&#xE14; <strong>Conflict</strong> &#xE23;&#xE30;&#xE2B;&#xE27;&#xE48;&#xE32;&#xE07;&#xE01;&#xE32;&#xE23;&#xE41;&#xE01;&#xE49;&#xE44;&#xE02; &#xE42;&#xE14;&#xE22;&#xE01;&#xE32;&#xE23;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE19;&#xE31;&#xE49;&#xE19;&#xE08;&#xE30;&#xE41;&#xE1A;&#xE48;&#xE07;&#xE2D;&#xE2D;&#xE01;&#xE40;&#xE1B;&#xE47;&#xE19; 2 &#xE1B;&#xE23;&#xE30;&#xE40;&#xE20;&#xE17; &#xE04;&#xE37;&#xE2D;</p>
+<ul>
+<li>&#xE40;&#xE23;&#xE32;&#xE14;&#xE36;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE43;&#xE2B;&#xE21;&#xE48;&#xE21;&#xE32;&#xE08;&#xE32;&#xE01;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C; ( <strong>Local &lt;- Remote</strong> )</li>
+<li>&#xE40;&#xE23;&#xE32;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE44;&#xE1B;&#xE17;&#xE35;&#xE48;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C; ( <strong>Local -&gt; Remote</strong> )</li>
+</ul>
+<h2 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B6%E0%B8%87%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C">&#xE01;&#xE32;&#xE23;&#xE14;&#xE36;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE43;&#xE2B;&#xE21;&#xE48;&#xE21;&#xE32;&#xE08;&#xE32;&#xE01;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;</h2>
+<p>&#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE14;&#xE36;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE08;&#xE32;&#xE01;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;&#xE19;&#xE31;&#xE49;&#xE19; &#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git pull</code> &#xE42;&#xE14;&#xE22; <strong>Git</strong> &#xE19;&#xE31;&#xE49;&#xE19;&#xE08;&#xE30;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23;&#xE14;&#xE36;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE41;&#xE25;&#xE49;&#xE27;&#xE22;&#xE49;&#xE32;&#xE22; <strong>Pointer</strong> &#xE17;&#xE35;&#xE48;&#xE1A;&#xE2D;&#xE01;&#xE15;&#xE33;&#xE41;&#xE2B;&#xE19;&#xE48;&#xE07; <strong>Commit</strong> &#xE1B;&#xE31;&#xE08;&#xE08;&#xE38;&#xE1A;&#xE31;&#xE19;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07; <strong>Commit</strong> &#xE25;&#xE48;&#xE32;&#xE2A;&#xE38;&#xE14;&#xE0B;&#xE36;&#xE48;&#xE07;&#xE08;&#xE30;&#xE15;&#xE23;&#xE07;&#xE01;&#xE31;&#xE1A;&#xE1A;&#xE19;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;</p>
+<pre><code>&gt; git log
+commit d5aaeba701075735f1046a22be22a45746fe05b9
+Author: Sompong &lt;Sompong@gmail.in.th&gt;
+Date:   Tue Apr 28 22:30:45 2015 +0700
+    &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE44;&#xE1F;&#xE25;&#xE4C; README.txt
+&gt; git pull
+remote: Counting objects: 25, done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 25 (delta 7), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (25/25), done.
+From github.com:codeforthailand/git-foundation
+   38cb69f..38e9b13  master     -&gt; origin/master
+Updating d5aaeba..8f3d34f
+Fast-forward
+ README.txt                                |   5 +
+1 file changed, 5 insertions(+), 0 deletion(-) 
+&gt; git log
+commit 8f3d34f05c38d57b028c8c45d330e1f40841b617
+Author: Somrak &lt;Somrak@gmail.in.th&gt;
+Date:   Tue Apr 29 22:30:12 2015 +0700
+    &#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE01;&#xE32;&#xE23;&#xE23;&#xE31;&#xE19;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;
 
+commit d5aaeba701075735f1046a22be22a45746fe05b9
+Author: Sompong &lt;Sompong@gmail.in.th&gt;
+Date:   Tue Apr 28 22:30:45 2015 +0700
+    &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE44;&#xE1F;&#xE25;&#xE4C; README.txt
+</code></pre><p><strong>&#xE04;&#xE33;&#xE41;&#xE19;&#xE30;&#xE19;&#xE33;</strong> &#xE01;&#xE48;&#xE2D;&#xE19;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;&#xE19;&#xE35;&#xE49; &#xE04;&#xE27;&#xE23;&#xE08;&#xE30;&#xE21;&#xE31;&#xE48;&#xE19;&#xE43;&#xE08;&#xE27;&#xE48;&#xE32;&#xE42;&#xE1B;&#xE23;&#xE40;&#xE08;&#xE47;&#xE04;&#xE02;&#xE2D;&#xE07;&#xE40;&#xE23;&#xE32;&#xE44;&#xE21;&#xE48;&#xE21;&#xE35; <strong>Change</strong> &#xE2B;&#xE23;&#xE37;&#xE2D;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE17;&#xE35;&#xE48;&#xE23;&#xE2D;&#xE01;&#xE32;&#xE23; <strong>Commit</strong> &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE1B;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE31;&#xE19; <strong>Conflict</strong> &#xE2B;&#xE25;&#xE31;&#xE07;&#xE08;&#xE32;&#xE01;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;</p>
+<h2 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B1%E0%B8%9E%E0%B9%80%E0%B8%94%E0%B8%97%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B9%84%E0%B8%9B%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C">&#xE01;&#xE32;&#xE23;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE44;&#xE1B;&#xE17;&#xE35;&#xE48;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;</h2>
+<p>&#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE23;&#xE32;&#xE44;&#xE14;&#xE49;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23; <strong>Commit Change</strong> &#xE40;&#xE2A;&#xE23;&#xE47;&#xE08;&#xE40;&#xE23;&#xE35;&#xE22;&#xE1A;&#xE23;&#xE49;&#xE2D;&#xE22;&#xE1A;&#xE19;&#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE02;&#xE2D;&#xE07;&#xE40;&#xE23;&#xE32; &#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git push</code> &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE40;&#xE2B;&#xE25;&#xE48;&#xE32;&#xE19;&#xE31;&#xE49;&#xE19;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;</p>
+<pre><code>&gt; git log
+commit 38e9b13fdaa1d417a6b9c96c5f28c9f841354e04
+Author: Sompong &lt;Sompong@gmail.in.th&gt;
+Date:   Tue Apr 30 10:30:12 2015 +0700
+    &#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE17;&#xE31;&#xE48;&#xE27;&#xE44;&#xE1B;
+
+commit 8f3d34f05c38d57b028c8c45d330e1f40841b617
+Author: Somrak &lt;Somrak@gmail.in.th&gt;
+Date:   Tue Apr 29 20:30:12 2015 +0700
+    &#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE01;&#xE32;&#xE23;&#xE23;&#xE31;&#xE19;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;
+
+commit d5aaeba701075735f1046a22be22a45746fe05b9
+Author: Sompong &lt;Sompong@gmail.in.th&gt;
+Date:   Tue Apr 28 22:30:45 2015 +0700
+    &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE44;&#xE1F;&#xE25;&#xE4C; README.txt
+&gt; git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 347 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To git@github.com:codeforthailand/git-foundation.git
+   8f3d34f..38e9b13  master -&gt; master
+</code></pre>
                     
                     </section>
                 
@@ -369,10 +424,8 @@
         </div>
 
         
-        <a href="../../section/intro.html" class="navigation navigation-prev " aria-label="Previous page: บทนำ"><i class="fa fa-angle-left"></i></a>
+        <a href="../../section/basics/undoing.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: การยกเลิก Staging, Change"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../../section/intro/whatisgit.html" class="navigation navigation-next " aria-label="Next page: แนะนำ Git"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
