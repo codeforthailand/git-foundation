@@ -26,8 +26,15 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ต่อมาทำการเริ่มเก็บประวัติการแก้ไขของไฟล์ โดยใช้คำสั่ง **git add** เพื่อทำการเพิ่มไฟล์เข้าสู่ **Git** แล้วพิมพ์ คำสั่ง **git commit** เพื่อยืนยันการเปลี่ยนแปลง โดย `-m` คือ **Commit Message** ซึ่งใช้บ่งบอกว่า **Commit** นี้เกี่ยวกับอะไร
 ```
-git add README.txt
-git commit -m "เพิ่มไฟล์ README.txt"
+> git add README.txt
+> git commit -m "เพิ่มไฟล์ README.txt"
+```
+ซึ่งเราสามารถดูข้อมูลการ **Commit** ได้ โดยใช้คำสั่ง `git log`
+```
+commit d5aaeba701075735f1046a22be22a45746fe05b9
+Author: Sompong <Sompong@gmail.in.th>
+Date:   Tue Apr 28 22:30:45 2015 +0700
+	เพิ่มไฟล์ README.txt
 ```
 
 ## การ Clone จาก Repository ที่มีอยู่แล้ว

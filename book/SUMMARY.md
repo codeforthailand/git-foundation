@@ -8,6 +8,9 @@
     * [Mac OSX](section/setup/osx.md)
 * [การใช้งานเบื้องต้น](section/basics.md)
     * [เริ่มต้นใช้งาน](section/basics/getting-started.md)
-* [การนำไปใช้จริง]
+    * [การลบไฟล์ออกจาก Git](section/basics/removing.md)
+    * [การยกเลิก Staging, Change](section/basics/undoing.md)
+    * [การอัพเดทข้อมูลกับเซิฟเวอร์](section/basics/synchonization.md)
+* [การนำไปใช้จริง]* 
 	* [Git Client]
 	* [Github]

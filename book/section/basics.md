@@ -9,7 +9,7 @@
 
 ![image](http://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png "&copy; Git SCM Book")
 
-## Git Tree
+## Git Tree (need update)
 
 
 
@@ -20,3 +20,5 @@
 2. **Local Repository** ส่วนที่ทำงานบนเครื่องของเรา คอยจัดเก็บการเปลี่ยนแปลงที่เกิดขึ้น และคอยอัพเดทสถานะกับทาง **Remote Repository**
 
 ![](http://i.imgur.com/oHJjcMx.png "&copy; Git Tower")
+
+## Conflict	
