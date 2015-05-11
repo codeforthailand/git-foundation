@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>การยกเลิก Staging, Change | </title>
+        <title>การติด Tag | </title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.0.1">
@@ -20,10 +20,8 @@
         
     
     
-    <link rel="next" href="../../section/basics/synchonization.html" />
     
-    
-    <link rel="prev" href="../../section/basics/removing.html" />
+    <link rel="prev" href="../../section/basics/synchonization.html" />
     
 
         
@@ -36,7 +34,7 @@
     
 
         
-    <div class="book" data-level="3.3" data-basepath="../.." data-revision="Mon May 11 2015 22:11:41 GMT+0700 (ICT)">
+    <div class="book" data-level="3.5" data-basepath="../.." data-revision="Mon May 11 2015 22:11:41 GMT+0700 (ICT)">
     
 
 <div class="book-summary">
@@ -191,7 +189,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.3" data-path="section/basics/undoing.html">
+        <li class="chapter " data-level="3.3" data-path="section/basics/undoing.html">
             
                 
                     <a href="../../section/basics/undoing.html">
@@ -221,7 +219,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="section/basics/tagging.html">
+        <li class="chapter active" data-level="3.5" data-path="section/basics/tagging.html">
             
                 
                     <a href="../../section/basics/tagging.html">
@@ -371,51 +369,44 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81-staging-change">&#xE01;&#xE32;&#xE23;&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01; Staging, Change</h1>
-<h2 id="%E0%B8%A2%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81-staging-%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C">&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01; Staging &#xE44;&#xE1F;&#xE25;&#xE4C;</h2>
-<p>&#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE44;&#xE14;&#xE49; <strong>Staging</strong> ( <strong>git add, rm</strong> ) &#xE44;&#xE1F;&#xE25;&#xE4C;&#xE44;&#xE1B;&#xE41;&#xE25;&#xE49;&#xE27;&#xE19;&#xE31;&#xE49;&#xE19; &#xE41;&#xE25;&#xE49;&#xE27;&#xE15;&#xE48;&#xE2D;&#xE21;&#xE32;&#xE43;&#xE19;&#xE20;&#xE32;&#xE22;&#xE2B;&#xE25;&#xE31;&#xE07;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01; <strong>Staging</strong> &#xE14;&#xE49;&#xE27;&#xE22;&#xE40;&#xE2B;&#xE15;&#xE38;&#xE1C;&#xE25;&#xE1A;&#xE32;&#xE07;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07; &#xE40;&#xE0A;&#xE48;&#xE19; &#xE42;&#xE04;&#xE4A;&#xE14;&#xE0A;&#xE38;&#xE14;&#xE19;&#xE35;&#xE49;&#xE44;&#xE21;&#xE48;&#xE08;&#xE33;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE44;&#xE02; &#xE40;&#xE1B;&#xE47;&#xE19;&#xE15;&#xE49;&#xE19; &#xE40;&#xE23;&#xE32;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE17;&#xE33;&#xE44;&#xE14;&#xE49;&#xE42;&#xE14;&#xE22; &#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git reset HEAD &lt;filename&gt;</code></p>
-<pre><code>&gt; git status
-On branch master
-Your branch is up-to-date with &apos;origin/master&apos;.
-Changes to be committed:
-  (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+                        <h1 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94-tag">&#xE01;&#xE32;&#xE23;&#xE15;&#xE34;&#xE14; Tag</h1>
+<p>&#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49; <strong>Tag</strong> &#xE2D;&#xE49;&#xE32;&#xE07;&#xE16;&#xE36;&#xE07; <strong>Commit</strong> &#xE43;&#xE19; <strong>Tree</strong> &#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE08;&#xE30;&#xE23;&#xE30;&#xE1A;&#xE38; &#xE42;&#xE14;&#xE22;&#xE2A;&#xE48;&#xE27;&#xE19;&#xE43;&#xE2B;&#xE0D;&#xE48;&#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#x200B;&#xE01;&#xE31;&#xE1A;&#xE01;&#xE32;&#xE23; <strong>Release</strong> &#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE40;&#xE0A;&#xE48;&#xE19; <em>v1.0</em> &#xE40;&#xE1B;&#xE47;&#xE19;&#xE15;&#xE49;&#xE19; </p>
+<h2 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B8%B9-tag-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88">&#xE01;&#xE32;&#xE23;&#xE14;&#xE39; Tag &#xE17;&#xE35;&#xE48;&#xE21;&#xE35;&#xE2D;&#xE22;&#xE39;&#xE48;</h2>
+<p>&#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git tag</code> &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE41;&#xE2A;&#xE14;&#xE07; <strong>Tag</strong> &#xE17;&#xE35;&#xE48;&#xE21;&#xE35;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE43;&#xE19;&#xE42;&#xE1B;&#xE23;&#xE40;&#xE08;&#xE47;&#xE04;&#xE02;&#xE2D;&#xE07;&#xE40;&#xE23;&#xE32;</p>
+<pre><code>$ git tag -l
+v1.4.2
+v1.4.3
+v1.4.4
+v1.4.5
+</code></pre><h2 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-tag">&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07; Tag</h2>
+<p>&#xE43;&#xE19;&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07; <strong>Tag</strong> &#xE40;&#xE23;&#xE32;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git tag</code> &#xE15;&#xE32;&#xE21;&#xE14;&#xE49;&#xE27;&#xE22;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE02;&#xE2D;&#xE07; <strong>Tag</strong> &#xE41;&#xE25;&#xE30;&#xE04;&#xE33;&#xE2D;&#xE18;&#xE34;&#xE1A;&#xE32;&#xE22;</p>
+<pre><code>$ git tag -a v1.4.6 -m &apos;New about-us page&apos;
+$ git tag
+v1.4.2
+v1.4.3
+v1.4.4
+v1.4.5
+v1.4.6
+</code></pre><p>&#xE42;&#xE14;&#xE22;&#xE15;&#xE31;&#xE27; <strong>Git</strong> &#xE08;&#xE30;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23;&#xE15;&#xE34;&#xE14; <strong>Tag</strong> &#xE17;&#xE35;&#xE48; <strong>Commit</strong> &#xE1B;&#xE31;&#xE08;&#xE08;&#xE38;&#xE1A;&#xE31;&#xE19;&#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE2D;&#xE22;&#xE39;&#xE48; &#xE2B;&#xE23;&#xE37;&#xE2D;&#xE08;&#xE30;&#xE43;&#xE2A;&#xE48;&#xE40;&#xE25;&#xE02; <strong>checksum</strong> &#xE02;&#xE2D;&#xE07; <strong>Commit</strong> &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30; <strong>Tag</strong> &#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE08;&#xE30;&#xE15;&#xE23;&#xE27;&#xE08;&#xE2A;&#xE2D;&#xE1A;&#xE23;&#xE32;&#xE22;&#xE25;&#xE30;&#xE40;&#xE2D;&#xE35;&#xE22;&#xE14;&#xE02;&#xE2D;&#xE07; <strong>Tag</strong>
+&#xE40;&#xE23;&#xE32;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git show &lt;tag-name&gt;</code> &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE14;&#xE39;&#xE23;&#xE32;&#xE22;&#xE25;&#xE30;&#xE40;&#xE2D;&#xE35;&#xE22;&#xE14;&#xE44;&#xE14;&#xE49;</p>
+<pre><code>$ git show  v1.4.6
+commit 15027957951b64cf874c3557a0f3547bd83b3ff6
+Merge: 4a447f7... a6b4c97...
+Author: Scott Chacon &lt;schacon@gee-mail.com&gt;
+Date:   Sun Feb 8 19:02:46 2009 -0800
 
-    modified:   README.md
-&gt; git reset HEAD README.md
-&gt; git status
-On branch master
-Your branch is up-to-date with &apos;origin/master&apos;.
-Changes not staged for commit:
-  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
-
-    modified:   README.md
-</code></pre><h2 id="%E0%B8%A2%E0%B8%81%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87-change">&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19;&#xE41;&#xE1B;&#xE25;&#xE07; ( Change )</h2>
-<p>&#xE1A;&#xE32;&#xE07;&#xE01;&#xE23;&#xE13;&#xE35;&#xE40;&#xE23;&#xE32;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19;&#xE41;&#xE1B;&#xE25;&#xE07;&#xE02;&#xE2D;&#xE07;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE17;&#xE35;&#xE48;&#xE40;&#xE01;&#xE34;&#xE14;&#xE02;&#xE36;&#xE49;&#xE19; &#xE40;&#xE23;&#xE32;&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE44;&#xE14;&#xE49; &#xE42;&#xE14;&#xE22;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git checkout -- &lt;filename&gt;</code> </p>
-<p><strong>&#xE04;&#xE33;&#xE41;&#xE19;&#xE30;&#xE19;&#xE33;</strong> &#xE40;&#xE19;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE08;&#xE32;&#xE01;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE22;&#xE01;&#xE40;&#xE25;&#xE34;&#xE01;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19;&#xE41;&#xE1B;&#xE25;&#xE07;&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;&#xE17;&#xE35;&#xE48;&#xE40;&#xE01;&#xE34;&#xE14;&#xE02;&#xE36;&#xE49;&#xE19;&#xE43;&#xE19;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE19;&#xE31;&#xE49;&#xE19; &#xE2B;&#xE25;&#xE31;&#xE07; <strong>Commit</strong> &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30;&#xE09;&#xE30;&#xE19;&#xE31;&#xE49;&#xE19;&#xE40;&#xE23;&#xE32;&#xE04;&#xE27;&#xE23;&#xE08;&#xE30;&#xE41;&#xE19;&#xE48;&#xE43;&#xE08;&#xE43;&#xE2B;&#xE49;&#xE14;&#xE35;&#xE01;&#xE48;&#xE2D;&#xE19;&#xE43;&#xE0A;&#xE49; &#xE2B;&#xE23;&#xE37;&#xE2D;&#xE43;&#xE0A;&#xE49; <code>git diff &lt;filename&gt;</code> &#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE15;&#xE23;&#xE27;&#xE08;&#xE2A;&#xE2D;&#xE1A; Change &#xE17;&#xE35;&#xE48;&#xE40;&#xE01;&#xE34;&#xE14;&#xE02;&#xE36;&#xE49;&#xE19;</p>
-<pre><code>&gt; git status
-On branch master
-Your branch is up-to-date with &apos;origin/master&apos;.
-Changes not staged for commit:
-  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
-
-    modified:   README.md
-&gt; git checkout -- README.md
-&gt; git status
-On branch master
-Your branch is up-to-date with &apos;origin/master&apos;.
-nothing to commit, working directory clean
-</code></pre><pre><code>&gt; git diff README.md
-diff --git a/README.md b/README.md
-index 782586c..97e8c1e 100644
---- a/README.md
-+++ b/README.md
-@@ -1,4 +1,4 @@
--# Git Basic
-+# Git Foundation
-</code></pre><p><strong>&#xE04;&#xE33;&#xE41;&#xE19;&#xE30;&#xE19;&#xE33;</strong> &#xE43;&#xE19;&#xE01;&#xE23;&#xE13;&#xE35;&#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE44;&#xE21;&#xE48;&#xE23;&#xE30;&#xE1A;&#xE38;&#xE1A;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE44;&#xE1F;&#xE25;&#xE4C;&#xE40;&#xE27;&#xE25;&#xE32;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; <code>git diff</code> <strong>Git</strong> &#xE08;&#xE30;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23;&#xE41;&#xE2A;&#xE14;&#xE07; <strong>Change</strong> &#xE17;&#xE35;&#xE48;&#xE40;&#xE01;&#xE34;&#xE14;&#xE02;&#xE36;&#xE49;&#xE19;&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;&#xE43;&#xE19;&#xE42;&#xE1B;&#xE23;&#xE40;&#xE08;&#xE47;&#xE04;</p>
-
+    Merge branch &apos;Redesign about-us page&apos;
+</code></pre><h2 id="%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B1%E0%B8%9E%E0%B9%80%E0%B8%94%E0%B8%97-tag-%E0%B9%84%E0%B8%9B%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C">&#xE01;&#xE32;&#xE23;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17; Tag &#xE44;&#xE1B;&#xE17;&#xE35;&#xE48;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C;</h2>
+<p>&#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE23;&#xE32;&#xE44;&#xE14;&#xE49;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23;&#xE15;&#xE34;&#xE14; <strong>Tag</strong> &#xE40;&#xE2A;&#xE23;&#xE47;&#xE08;&#xE40;&#xE23;&#xE35;&#xE22;&#xE1A;&#xE23;&#xE49;&#xE2D;&#xE22;&#xE41;&#xE25;&#xE49;&#xE27; &#xE40;&#xE23;&#xE32;&#xE04;&#xE27;&#xE23;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE2D;&#xE31;&#xE1E;&#xE40;&#xE14;&#xE17;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE02;&#xE2D;&#xE07; <strong>Tag</strong> &#xE17;&#xE35;&#xE48;&#xE40;&#xE23;&#xE32;&#xE44;&#xE14;&#xE49;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE02;&#xE36;&#xE49;&#xE19;&#xE21;&#xE32;&#xE43;&#xE2B;&#xE21;&#xE48;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07;&#xE40;&#xE0B;&#xE34;&#xE1F;&#xE40;&#xE27;&#xE2D;&#xE23;&#xE4C; &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE41;&#xE0A;&#xE23;&#xE4C;&#xE43;&#xE2B;&#xE49;&#xE04;&#xE19;&#xE2D;&#xE37;&#xE48;&#xE19;&#xE46;&#xE43;&#xE19;&#xE17;&#xE35;&#xE21; &#xE44;&#xE14;&#xE49;&#xE19;&#xE33;&#xE44;&#xE1B;&#xE43;&#xE0A;&#xE49;&#xE15;&#xE48;&#xE2D;&#xE44;&#xE1B;&#x200B; &#xE42;&#xE14;&#xE22;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;&#xE17;&#xE35;&#xE48;&#xE43;&#xE0A;&#xE49;&#xE19;&#xE31;&#xE49;&#xE19;&#xE04;&#xE37;&#xE2D;
+<code>git push origin &lt;tag-name&gt;</code></p>
+<pre><code>$ git push origin v1.4.6
+Counting objects: 50, done.
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (44/44), 4.56 KiB, done.
+Total 44 (delta 18), reused 8 (delta 1)
+To git@github.com:codeforthailand/git-foundation.git
+* [new tag]         v1.4.6 -&gt; v1.4.6
+</code></pre>
                     
                     </section>
                 
@@ -425,10 +416,8 @@ index 782586c..97e8c1e 100644
         </div>
 
         
-        <a href="../../section/basics/removing.html" class="navigation navigation-prev " aria-label="Previous page: การลบไฟล์ออกจาก Git"><i class="fa fa-angle-left"></i></a>
+        <a href="../../section/basics/synchonization.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: การอัพเดทข้อมูลกับเซิฟเวอร์"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../../section/basics/synchonization.html" class="navigation navigation-next " aria-label="Next page: การอัพเดทข้อมูลกับเซิฟเวอร์"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
