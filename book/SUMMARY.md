@@ -11,6 +11,7 @@
     * [การลบไฟล์ออกจาก Git](section/basics/removing.md)
     * [การยกเลิก Staging, Change](section/basics/undoing.md)
     * [การอัพเดทข้อมูลกับเซิฟเวอร์](section/basics/synchonization.md)
+    * [การติด Tag](section/basics/tagging.md)
 * [การนำไปใช้จริง]* 
 	* [Git Client]
 	* [Github]
